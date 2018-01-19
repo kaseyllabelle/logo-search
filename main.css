@@ -1,0 +1,56 @@
+body
+{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #424242;
+}
+
+h1
+{
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+}
+
+select,
+button
+{
+	border-radius: 2px;
+	outline: none;
+	cursor: pointer;
+}
+
+select
+{
+	appearance: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    width: 125px;
+    margin: 0 10px;
+	border: 1px solid #00BCD4;
+    padding: 10px 20px 10px 10px;
+	background-color: #fff;
+	color: #424242;
+}
+
+button
+{
+	display: block;
+	margin: 20px auto 15px auto;
+	border: 0;
+    padding: 10px 20px;
+	text-transform: uppercase;
+	background-color: #00BCD4;
+	color: #fff;
+}
+
+button:hover
+{
+	background-color: #4DD0E1;
+}
+
+img
+{
+	padding: 15px;
+}

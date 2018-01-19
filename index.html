@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logo Search</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1>Society Education Programs</h1>
+	<form>
+		<select class="program-type">
+			<option value="">Program Type ▾</option>
+			<option value="search-all">Search All</option>
+			<option value="scholarship">Scholarship</option>
+			<option value="loan">Loan</option>
+		</select>
+		<select class="education-level">
+			<option value="">Education Level ▾</option>
+			<option value="search-all">Search All</option>
+			<option value="k-8">K-8</option>
+			<option value="high-school">High School</option>
+		</select>
+		<button>Search</button>
+	</form>
+	<div class="logos">
+		<img src="./images/aci.png" data-field="scholarship" data-level="high-school"/>
+		<img src="./images/acm.png" data-level="k-8"/>
+		<img src="./images/afe.png" data-field="loan" data-level="k-8"/>
+		<img src="./images/acm.png" data-field="scholarship" data-level="high-school"/>
+		<img src="./images/aci.png" data-level="k-8"/>
+		<img src="./images/aci.png" data-field="loan" data-level="k-8"/>
+		<img src="./images/afe.png" data-field="scholarship"/>
+		<img src="./images/acm.png" data-field="loan" data-level="high-school"/>
+		<img src="./images/afe.png" data-level="high-school"/>
+		<img src="./images/aci.png" data-field="scholarship" data-level="k-8"/>	
+	</div>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>
